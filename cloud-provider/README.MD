@@ -10,3 +10,5 @@
     @PostMapping(value = "/add") 添加一个新的部门
     @DeleteMapping(value = "/delete/{id}")  删除一个部门 
     
+## 这是一个用来提供接口给别人操作的服务
+    这只是一个基本的服务，没有任何生产能力。

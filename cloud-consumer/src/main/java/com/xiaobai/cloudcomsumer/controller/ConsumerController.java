@@ -1,14 +1,12 @@
 package com.xiaobai.cloudcomsumer.controller;
 
 import com.xiaobai.entity.Dept;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -35,23 +33,25 @@ public class ConsumerController {
     }
 
     @GetMapping("/list")
+    @SuppressWarnings("unchecked")
     public List<Dept> listDept(){
         return restTemplate.getForObject(PREFIX+"/list",List.class);
     }
 
     @GetMapping("list/{id}")
     public Dept getDeptById(@PathVariable("id") String id){
-        return restTemplate.getForObject(PREFIX+"/list/"+id,Dept.class);
+        return  restTemplate.getForObject(PREFIX+"/list/"+id,Dept.class);
     }
 
     @PostMapping("/add")
+    @SuppressWarnings("unchecked")
     public Map<String,Object> addDept(Dept dept){
-        return restTemplate.postForObject(PREFIX+"/add",dept,Map.class);
+        return  restTemplate.postForObject(PREFIX+"/add",dept,Map.class);
     }
     /**
      * 这里需要说一下  restTemplate 的  put 和 delete 方法是没有返回值的
      * 如果需要返回值 可以使用exchange方法 见下方删除方法
-     * @param dept
+     * @param dept 要修改的部门信息
      */
     @PutMapping("/modify")
     public void modifyById(Dept dept){
@@ -60,11 +60,12 @@ public class ConsumerController {
     }
 
     @DeleteMapping("/delete/{id}")
+    @SuppressWarnings("unchecked")
     public Map<String,Object> deleteDept(@PathVariable("id") String id){
         ResponseEntity<Map> responseEntity = restTemplate.exchange(PREFIX+"/delete/"+id,
                 HttpMethod.DELETE,null,Map.class);
         if(null != responseEntity){
-            return responseEntity.getBody();
+            return  responseEntity.getBody();
         }
         return null;
     }

@@ -11,4 +11,4 @@
     @DeleteMapping("/delete/{id}") 删除部门 调用provider接口获取 
     
 ## 该部分主要使用的RestTemplate进行服务调用，演示了如何通过RestTemplate进行服务间的调用
-  
+   这是一个基本的服务，仅作为演示使用。没有任何生产能力
