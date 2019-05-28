@@ -50,3 +50,9 @@
       注册中心则会认为这是不同的服务。
 ```
 
+### Eureka注册中心集群模式
+    由于Eureka是集群模式，所以我们的微服务应该在每一个集群中注册，所以我们要简单的修改一下配置文件
+    将eureka.client.service-url.defaultZone 配置为所有的注册中心地址（多个逗号分割）
+        
+    我们还可以通过配置eureka.instance.instance-id 来为我们的服务起一个显示在注册中心的ID(注意，这只是id，查找服务还是要靠服务名称)
+    我们还可以通过配置eureka.instance.prefer-ip-address 来控制是否显示实例的ip地址

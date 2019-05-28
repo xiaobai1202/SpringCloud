@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-eureka-7002" />
         <module name="cloud-eureka-7001" />
         <module name="cloud-common" />
         <module name="cloud-provider-8082" />
         <module name="cloud-provider-8081" />
         <module name="cloud-provider-8080" />
         <module name="cloud-consumer-80" />
+        <module name="cloud-eureka-7003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +27,8 @@
       <module name="cloud-consumer-80" options="-parameters" />
       <module name="cloud-eureka" options="-parameters" />
       <module name="cloud-eureka-7001" options="-parameters" />
+      <module name="cloud-eureka-7002" options="-parameters" />
+      <module name="cloud-eureka-7003" options="-parameters" />
       <module name="cloud-provider-8080" options="-parameters" />
       <module name="cloud-provider-8081" options="-parameters" />
       <module name="cloud-provider-8082" options="-parameters" />

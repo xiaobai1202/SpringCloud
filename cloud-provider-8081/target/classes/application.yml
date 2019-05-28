@@ -21,4 +21,9 @@ logging:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/
+      #defaultZone: http://eureka7001.com:7001/eureka/ # 这是第二阶段的单一注册中心
+      #第三阶段 注册中心集群
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ # 集群配置的Eureka注册（若是单一就写一个）
+  instance:
+    instance-id: cloud-provider-8081 #配置实例ID （显示用 调用服务还是要使用服务名称）
+    prefer-ip-address: true #显示ip地址

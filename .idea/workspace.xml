@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe4a32ec-3b55-462e-b455-bb710cb2bea0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7002/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7002/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7002/src/main/java/com/xiaobai/cloudeureka7001/CloudEureka7002Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7003/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7003/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7003/src/main/java/com/xiaobai/cloudeureka7003/CloudEureka7003Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-7003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-eureka-7001/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-7001/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-8080/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8080/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-8080/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8080/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-8081/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8081/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-8081/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8081/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-8082/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8082/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,6 +41,9 @@
     <ignored path="$PROJECT_DIR$/cloud-consumer-80/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-8081/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-8082/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka-7002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka-7004/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka-7003/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +85,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-provider-8080/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="242">
-                <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <first_editor relative-caret-position="478">
+                <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,31 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-8080/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="488">
-                <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="357">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -124,15 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/xiaobai/cloudprovider/CloudProviderApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/xiaobai/cloudprovider/entity/Dept.java" />
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/xiaobai/cloudprovider/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/xiaobai/cloudprovider/service/Service.java" />
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/xiaobai/cloudprovider/service/impl/ServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/xiaobai/cloudprovider/dao/Dao.java" />
-        <option value="$PROJECT_DIR$/cloud-comsumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-comsumer/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-comsumer/src/main/java/com/xiaobai/cloudcomsumer/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
@@ -142,16 +136,13 @@
         <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/xiaobai/cloudprovider/service/impl/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/xiaobai/cloudcomsumer/config/RestTemplateConfig.java" />
         <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/cloud-common/README.MD" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/cloud-consumer/README.MD" />
         <option value="$PROJECT_DIR$/cloud-provider/README.MD" />
         <option value="$PROJECT_DIR$/cloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-consumer-80/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-eureka-7001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-8080/src/main/java/com/xiaobai/cloudprovider/CloudProviderApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-8080/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/xiaobai/cloudcomsumer/CloudComsumerApplication.java" />
@@ -168,11 +159,25 @@
         <option value="$PROJECT_DIR$/cloud-provider-8080/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-8081/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-8082/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-8081/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-8080/README.MD" />
         <option value="$PROJECT_DIR$/cloud-provider-8081/README.MD" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7002/src/main/java/com/xiaobai/cloudeureka7001/CloudEureka7002Application.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7004/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7004/src/main/java/cloudeureka7001/CloudEureka7004Application.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7004/src/main/java/com/xiaobai/cloudeureka7003/CloudEureka7004Application.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7004/src/main/java/com/xiaobai/cloudeureka7003/CloudEureka7003Application.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7003/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-8080/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-8081/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-common/README.MD" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7002/README.MD" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7003/README.MD" />
         <option value="$PROJECT_DIR$/cloud-eureka-7001/README.MD" />
+        <option value="$PROJECT_DIR$/cloud-provider-8080/README.MD" />
       </list>
     </option>
   </component>
@@ -195,12 +200,16 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,14 +220,33 @@
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-7001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-8080" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-8080" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-8080" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-8080" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +259,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-8082" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringCloudCode/microservicecloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -242,12 +270,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cloudeureka7001" />
       <recent name="com.xiaobai.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\自己学习代码\SpringCloud\cloud-provider-8082" />
-      <recent name="G:\自己学习代码\SpringCloud\cloud-provider-8081" />
-      <recent name="G:\自己学习代码\test-cloud\cloud-common" />
+      <recent name="G:\自己学习代码\SpringCloud\cloud-eureka-7003" />
+      <recent name="G:\自己学习代码\SpringCloud\cloud-eureka-7003\src\main\resources" />
+      <recent name="G:\自己学习代码\SpringCloud\cloud-eureka-7002\src\main\resources" />
+      <recent name="G:\自己学习代码\SpringCloud\cloud-eureka-7002\src\main\java" />
+      <recent name="G:\自己学习代码\SpringCloud\cloud-eureka-7002" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,8 +297,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.22564936" />
   </component>
-  <component name="RunManager" selected="Spring Boot.CloudProvider8082Application">
+  <component name="RunManager" selected="Spring Boot.CloudEureka7003Application">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="cloud-eureka" />
       <option name="VM_PARAMETERS" />
@@ -315,9 +347,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloudComsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="CloudComsumer80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaobai.cloudcomsumer.CloudConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -325,6 +358,34 @@
     <configuration name="CloudEureka7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaobai.cloudeureka7001.CloudEureka7001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEureka7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaobai.cloudeureka7001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaobai.cloudeureka7001.CloudEureka7002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEureka7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaobai.cloudeureka7003.CloudEureka7003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudProvider8080Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-8080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaobai.cloudprovider.CloudProvider8080Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -355,17 +416,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloudProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloud-provider-8080" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaobai.cloudprovider.CloudProvider8080Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CloudProvider8082Application" />
         <item itemvalue="Spring Boot.CloudProvider8081Application" />
+        <item itemvalue="Spring Boot.CloudEureka7002Application" />
       </list>
     </recent_temporary>
   </component>
@@ -390,6 +445,7 @@
       <workItem from="1559002342073" duration="1582000" />
       <workItem from="1559012697714" duration="1896000" />
       <workItem from="1559014856484" duration="412000" />
+      <workItem from="1559019125422" duration="3002000" />
     </task>
     <task id="LOCAL-00001" summary="00:06">
       <created>1558886811077</created>
@@ -440,17 +496,31 @@
       <option name="project" value="LOCAL" />
       <updated>1559014556158</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2019/05/28 11:35 更新README.MD">
+      <created>1559019303206</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559019303206</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2019/05/28 11:35 更新README.MD">
+      <created>1559019532954</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559019532954</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28694000" />
+    <option name="totallyTimeSpent" value="31696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -471,12 +541,12 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32850778" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32850778" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.36191538" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32850778" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.36191538" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.15138593" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15138593" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.13486141" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -493,44 +563,12 @@
     <MESSAGE value="2019/05/27  11:19  更新项目介绍" />
     <MESSAGE value="2019/05/28 08:22 添加服务注册Eureka 配置相关属性" />
     <MESSAGE value="2019/05/28 11:35 通过复制工程实现多实例服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/05/28 11:35 通过复制工程实现多实例服务" />
+    <MESSAGE value="2019/05/28 11:35 更新README.MD" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/05/28 11:35 更新README.MD" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ec8de58-c848-4158-81ba-abefb49db126/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://8ec8de58-c848-4158-81ba-abefb49db126/collation/utf32_unicode_520_ci" />
-    <entry file="file://$PROJECT_DIR$/cloud-provider/src/main/java/com/xiaobai/cloudprovider/entity/Dept.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/528386f2-55ae-4624-85b4-1f36c1b026f5/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/xiaobai/entity/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/xiaobai/cloudcomsumer/config/RestTemplateConfig.java" />
     <entry file="file://$PROJECT_DIR$/cloud-common/clouddb01.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka/pom.xml" />
     <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/java/com/xiaobai/cloudeureka/CloudEurekaApplication.java" />
@@ -597,31 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-8080/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-80/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -643,7 +660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="264">
@@ -750,23 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-80/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-8081/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-8081/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -793,35 +793,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-8080/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7002/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7002/src/main/java/com/xiaobai/cloudeureka7001/CloudEureka7002Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="23" column="36" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7003/src/main/java/com/xiaobai/cloudeureka7003/CloudEureka7003Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7003/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="112" selection-start-line="9" selection-start-column="112" selection-end-line="9" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-8081/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="457">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-80/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="376">
+            <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7002/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="478">
+            <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7003/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="488">
-            <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <first_editor relative-caret-position="392">
+            <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-8080/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-8080/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="478">
+            <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>

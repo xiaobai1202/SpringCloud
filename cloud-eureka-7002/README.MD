@@ -32,7 +32,7 @@
       获取到一个服务实例。但是在实际中并不是仅仅只有一个服务实例，Eureka 就是通过微服务名称来判
       断一个服务实例的（即相同服务名称才会被认为是同一个服务实例）
       所以我们在进行服务注册的时候，必须保证同一服务名称相同 不同服务名称不同。
-
+ 
 
 # 第二阶段 Eureka集群
     eureka集群是为了防止单一结点的Eureka服务挂掉导致整个的系统崩溃，提高系统的可用性。
@@ -40,10 +40,9 @@
     三个结点配置基本相同，这三个结点分别是：
     
    [cloud-eureka-7001](https://github.com/811105717/SpringCloud/tree/master/cloud-eureka-7001)    
-   [cloud-eureka-7002](https://github.com/811105717/SpringCloud/tree/master/cloud-eureka-7002) 和 
-   [eureka-cloud-7003](https://github.com/811105717/SpringCloud/tree/master/cloud-eureka-7003)
+      [cloud-eureka-7002](https://github.com/811105717/SpringCloud/tree/master/cloud-eureka-7002) 和 
+      [eureka-cloud-7003](https://github.com/811105717/SpringCloud/tree/master/cloud-eureka-7003)
    
    具体的配置方式也很简单：
    在第一阶段的配置基础上，修改eureka.client.service-url.defaultZone
    在其中配置上除自己外的其他eureka服务结点的地址即可
- 
