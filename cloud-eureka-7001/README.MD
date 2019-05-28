@@ -27,4 +27,9 @@
 >   至此，我们的Eureka服务端已经搭建好，并且服务端通过Eureka Client可以进行注册
     其实Eureka中的知识还有很多 例如自我保护模式等 具体请参考  [官方文档](https://cloud.spring.io/spring-cloud-netflix/spring-cloud-netflix.html)
 
+####  关于服务注册的说明
+      每一个服务都会通过Eureka客户端注册到Eureka注册中心，我们在注册中心可以通过服务的实例名称
+      获取到一个服务实例。但是在实际中并不是仅仅只有一个服务实例，Eureka 就是通过微服务名称来判
+      断一个服务实例的（即相同服务名称才会被认为是同一个服务实例）
+ 
 

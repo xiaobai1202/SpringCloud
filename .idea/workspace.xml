@@ -4,48 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe4a32ec-3b55-462e-b455-bb710cb2bea0" name="Default Changelist" comment="2019/05/28 11:35 通过复制工程实现多实例服务">
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/CloudProvider8081Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/dao/DeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/target/classes/META-INF/cloud-provider-8081.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/target/classes/com/xiaobai/cloudprovider/CloudProvider8081Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/target/classes/com/xiaobai/cloudprovider/controller/DeptController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/target/classes/com/xiaobai/cloudprovider/dao/DeptDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/target/classes/com/xiaobai/cloudprovider/service/DeptService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8081/target/classes/com/xiaobai/cloudprovider/service/impl/DeptServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/src/main/java/com/xiaobai/cloudprovider/CloudProvider8082Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/src/main/java/com/xiaobai/cloudprovider/dao/DeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/src/main/java/com/xiaobai/cloudprovider/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/src/main/java/com/xiaobai/cloudprovider/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/target/classes/com/xiaobai/cloudprovider/CloudProvider8082Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/target/classes/com/xiaobai/cloudprovider/controller/DeptController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/target/classes/com/xiaobai/cloudprovider/dao/DeptDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/target/classes/com/xiaobai/cloudprovider/service/DeptService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-8082/target/classes/com/xiaobai/cloudprovider/service/impl/DeptServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="fe4a32ec-3b55-462e-b455-bb710cb2bea0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-8080/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8080/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-8080/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8080/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-8080/src/main/java/com/xiaobai/cloudprovider/CloudProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8080/src/main/java/com/xiaobai/cloudprovider/CloudProvider8080Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-8080/src/test/java/com/xiaobai/cloudprovider/CloudProviderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-8080/src/test/java/com/xiaobai/cloudprovider/CloudProvider8080ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-cloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-7001/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-7001/README.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,18 +66,30 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="242">
-                <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+                <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="527">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="488">
+                <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -125,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -188,7 +161,6 @@
         <option value="$PROJECT_DIR$/cloud-consumer-80/src/main/java/com/xiaobai/cloudcomsumer/CloudConsumerApplication.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-80/src/main/java/com/xiaobai/cloudcomsumer/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/cloud-provider-8080/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-7001/README.MD" />
         <option value="$PROJECT_DIR$/cloud-provider-8080/src/main/java/com/xiaobai/cloudprovider/service/DeptService.java" />
         <option value="$PROJECT_DIR$/cloud-provider-8080/src/main/java/com/xiaobai/cloudprovider/dao/DeptDao.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-80/README.MD" />
@@ -200,6 +172,7 @@
         <option value="$PROJECT_DIR$/cloud-provider-8081/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-8080/README.MD" />
         <option value="$PROJECT_DIR$/cloud-provider-8081/README.MD" />
+        <option value="$PROJECT_DIR$/cloud-eureka-7001/README.MD" />
       </list>
     </option>
   </component>
@@ -228,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,23 +211,14 @@
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-8080" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-8081" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-8082" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-7001" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,7 +388,8 @@
       <workItem from="1558966195083" duration="4730000" />
       <workItem from="1558970944800" duration="5264000" />
       <workItem from="1559002342073" duration="1582000" />
-      <workItem from="1559012697714" duration="1841000" />
+      <workItem from="1559012697714" duration="1896000" />
+      <workItem from="1559014856484" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="00:06">
       <created>1558886811077</created>
@@ -469,17 +433,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559003287401</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2019/05/28 11:35 通过复制工程实现多实例服务">
+      <created>1559014556158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559014556158</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28227000" />
+    <option name="totallyTimeSpent" value="28694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -497,10 +468,10 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32850778" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32850778" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32850778" />
       <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.36191538" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -644,16 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="440">
-            <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -832,27 +793,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-8080/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="242">
-            <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-8081/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="527">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="488">
+            <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
