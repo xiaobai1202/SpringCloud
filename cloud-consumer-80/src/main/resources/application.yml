@@ -1,0 +1,11 @@
+server:
+  port: 80
+spring:
+  application:
+    name: cloud-comsumer
+
+#Eureka 配置 用于注册服务
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/

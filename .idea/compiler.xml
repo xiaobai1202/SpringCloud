@@ -8,15 +8,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-common" />
-        <module name="cloud-provider" />
-        <module name="cloud-consumer" />
+        <module name="cloud-provider-8080" />
+        <module name="cloud-eureka-7001" />
+        <module name="cloud-consumer-80" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-eureka" target="1.8" />
+      <module name="cloudeureka" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cloud-consumer" options="-parameters" />
-      <module name="cloud-provider" options="-parameters" />
+      <module name="cloud-consumer-80" options="-parameters" />
+      <module name="cloud-eureka" options="-parameters" />
+      <module name="cloud-eureka-7001" options="-parameters" />
+      <module name="cloud-provider-8080" options="-parameters" />
     </option>
   </component>
 </project>
