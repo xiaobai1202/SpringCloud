@@ -15,7 +15,7 @@
 
 # 第二阶段 作为一个微服务注册进Eureka
     进行这一步的前提是我们已经有一个可用的Eureka 服务端供我们注册
-    参考 ******
+   [参考cloud-eureka-7001](https://github.com/811105717/SpringCloud/tree/master/cloud-eureka-7001) 
     
 ### 配置方式
     1.修改配置文件，在原有依赖的基础上增加Eureka的客户端依赖 
