@@ -5,8 +5,8 @@
 ## 当前已经更新的模块有：
   [1. cloud-common 公共模块](https://github.com/811105717/SpringCloud/tree/master/cloud-common)
 
-  [2. cloud-provider-8080 服务提供者模块](https://github.com/811105717/SpringCloud/tree/master/cloud-provider-8080)
-  
-  [3. cloud-consumer-80 服务消费者模块](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-80)
-  
-  [4. cloud-eureka-7001 注册中心模块](https://github.com/811105717/SpringCloud/tree/master/cloud-eureka-7001)  
+  [2. cloud-provider 服务提供者模块](https://github.com/811105717/SpringCloud/tree/master/cloud-provider-8080)
+
+
+  [3. cloud-consumer 服务消费者模块](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-80)
+    

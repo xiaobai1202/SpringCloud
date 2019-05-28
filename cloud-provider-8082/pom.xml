@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xiaobai</groupId>
-    <artifactId>cloud-provider-8080</artifactId>
+    <artifactId>cloud-provider-8082</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cloud-provider-8080</name>
+    <name>cloud-provider-8082</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,7 +19,7 @@
     </properties>
 
     <dependencies>
-<!--        引入Eureka 的client 端依赖 用于服务注册-->
+        <!--        引入Eureka 的client 端依赖 用于服务注册-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>

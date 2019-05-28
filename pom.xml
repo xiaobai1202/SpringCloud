@@ -14,5 +14,7 @@
         <module>cloud-consumer-80</module>
         <module>cloud-common</module>
         <module>cloud-eureka-7001</module>
+        <module>cloud-provider-8081</module>
+        <module>cloud-provider-8082</module>
     </modules>
 </project>
