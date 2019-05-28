@@ -10,13 +10,13 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>cloud-provider-8080</module>
         <module>cloud-consumer-80</module>
         <module>cloud-common</module>
-        <module>cloud-eureka-7001</module>
+        <module>cloud-provider-8080</module>
         <module>cloud-provider-8081</module>
         <module>cloud-provider-8082</module>
+        <module>cloud-eureka-7001</module>
         <module>cloud-eureka-7002</module>
-        <module>cloud-eureka-7004</module>
+        <module>cloud-eureka-7003</module>
     </modules>
 </project>
