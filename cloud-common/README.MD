@@ -5,6 +5,7 @@
     而不是每个服务都要创建属于自己的实体类或者工具类（浪费大量的时间，依赖关系也不好整理）。
     
 ## 目前该模块中存在的实体类或工具类：
-    clouddb01.sql  当前项目使用的数据库（.sql文件)
-    
+    clouddb01.sql  
+    clouddb02.sql  
+    clouddb03.sql  当前项目使用的数据库（.sql文件) 三个服务使用三个不同的数据库
     1. com.xiaobai.entity.Dept  ———— 由IDEA 的数据库插件自动生成的实体类 对应dept表

@@ -32,3 +32,5 @@
 >
 >   早期的SpringCloud Eureka 是允许注册后直接进行访问的，但最新版本为了更好的服务架构考虑，不允许我们不经过负载均衡就
 >   对服务进行访问（当然也有一些安全原因），如果你现在直接通过服务名进行访问，那么很有可能会遇到 ``` java.net.UnknownHostException 异常 ```
+
+   我们应该通过  [带有负载均衡的客户端](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-ribbon-81) 进行访问

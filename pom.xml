@@ -18,5 +18,6 @@
         <module>cloud-eureka-7001</module>
         <module>cloud-eureka-7002</module>
         <module>cloud-eureka-7003</module>
+        <module>cloud-consumer-ribbon-81</module>
     </modules>
 </project>

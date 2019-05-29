@@ -1,11 +1,14 @@
-package com.xiaobai.cloudcomsumer.controller;
+package com.xiaobai.cloudconsumerribbon.controller;
 
 import com.xiaobai.entity.Dept;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
+
 import java.util.List;
 import java.util.Map;
 
@@ -23,15 +26,18 @@ public class ConsumerController {
      * 服务地址
      *
      * 第一阶段的RestTemplate 由于没有使用Eureka注册中心  直接IP访问
+     * private static final String PREFIX = "http://127.0.0.1:8080/dept";
+     * 第二阶段的RestTemplate 使用Eureka注册中心 并带有负载均衡 直接通过服务名进行访问
      */
-    private static final String PREFIX = "http://127.0.0.1:8080/dept";
+    private static final String PREFIX = "http://CLOUD-PROVIDER/dept";
     /**
      * 拿到Restmplate  官方文档中有提到，容器中没有为我们配置任何一个RestTemplate 需要我们自己配置或者builder
-     * 这里我们直接使用builder build出来一个使用，具体的配置方式与其他个性化配置基本相似 这里不再描述
+     * 这里我们在启动类中配置了一个RestTemplate 然后在这里进行自动注入
      * 具体请参考： https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/#boot-features-resttemplate
+     *
      */
-
-    private final RestTemplate restTemplate = new RestTemplate();
+    @Autowired
+    private  RestTemplate restTemplate;
 
 
     @GetMapping("/list")
