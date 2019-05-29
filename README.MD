@@ -13,4 +13,4 @@
   
   [5  cloud-provider-ribbon 负载均衡模块](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-ribbon-81)
   
-    
+  [6  cloud-provider-fegin 负载均衡模块（高级）](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-fegin-82)
