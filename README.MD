@@ -11,4 +11,6 @@
   
   [4  cloud-eureka  服务注册中心模块](https://github.com/811105717/SpringCloud/tree/master/cloud-eureka-7001)
   
+  [5  cloud-provider-ribbon 负载均衡模块](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-ribbon-81)
+  
     
