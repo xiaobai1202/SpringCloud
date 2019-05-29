@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe4a32ec-3b55-462e-b455-bb710cb2bea0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
@@ -116,7 +117,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.MD">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="352">
@@ -148,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-8080/src/main/java/com/xiaobai/cloudprovider/dao/DeptDao.java" />
         <option value="$PROJECT_DIR$/cloud-provider-8080/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-8081/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-8082/pom.xml" />
@@ -199,6 +199,7 @@
         <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/README.MD" />
         <option value="$PROJECT_DIR$/cloud-common/README.MD" />
         <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -247,11 +248,6 @@
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-ribbon-81" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,9 +457,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CloudProvider8082Application" />
         <item itemvalue="Spring Boot.CloudProvider8081Application" />
         <item itemvalue="Spring Boot.CloudEureka7002Application" />
+        <item itemvalue="Spring Boot.CloudProvider8082Application" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +493,7 @@
       <workItem from="1559107430510" duration="3865000" />
       <workItem from="1559111310746" duration="2569000" />
       <workItem from="1559113959144" duration="322000" />
-      <workItem from="1559114349897" duration="4052000" />
+      <workItem from="1559114349897" duration="4535000" />
     </task>
     <task id="LOCAL-00001" summary="00:06">
       <created>1558886811077</created>
@@ -597,11 +593,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559118275337</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2019/05/29 16:19 负载均衡  ribbon and fegin">
+      <created>1559118534366</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559118534366</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge branch 'master' of https://github.com/811105717/SpringCloud&#10;&#10;# Conflicts:&#10;#&#9;README.MD">
+      <created>1559118866701</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559118866701</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48476000" />
+    <option name="totallyTimeSpent" value="48959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,7 +673,8 @@
     <MESSAGE value="2019/05/28 13:48  修改工程pom文件" />
     <MESSAGE value="2019/05/29 13:18  增加模块 负载均衡 ribbon" />
     <MESSAGE value="2019/05/29 16:19 负载均衡  ribbon and fegin" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/05/29 16:19 负载均衡  ribbon and fegin" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/811105717/SpringCloud&#10;&#10;# Conflicts:&#10;#&#9;README.MD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/811105717/SpringCloud&#10;&#10;# Conflicts:&#10;#&#9;README.MD" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1038,7 +1049,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="352">
