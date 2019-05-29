@@ -21,3 +21,30 @@
     如果我们配置正确的话，在访问时，就可以看到负载均衡的结果
     （我这里每个服务是不同的数据库，可以看到查询出来的数据是来自不同的数据库的）
     
+### 负载均衡算法
+    Ribbon 为我们定义了7个负载均衡算法，我们可以直接使用，也可以修改定义好的负载均衡
+    算法，实现我们自定义的算法。下面先说一下这7个算法所在的类：
+    1. RoundRibbonRule ： 轮询算法   按顺序依次访问 头尾相接
+    2. RandomRule ： 随机算法  从可用微服务中随机选择一个微服务调用
+    3. AvailabilityFilterRule： 过滤掉高并发和故障的服务后 从剩下的进行轮询
+    4. WeightedResponseTimeRule：根据平均响应时间计算权重 权重较大的被访问的概率较高
+    5. RetryRule： 先轮询，如果失败则重试
+    6. BestAvailableRule： 过滤掉高并发和故障的，然后选择并发最小的
+    7. ZoneAvoidanceRule： 默认方式 复合判断server所在的区域性能和可用性
+    
+   具体源码请看这里：[IRule源码](https://github.com/Netflix/ribbon/tree/master/ribbon-loadbalancer/src/main/java/com/netflix/loadbalancer)
+   
+    配置方式：在客户端启动类或者配置类中，new一个IRule的Bean交给spring容器即可
+   
+   自定义轮询路由规则：
+    
+    自定义轮询规则也很简单——我们只需要自定义一个类，然后让这个类继承 AbstractLoadBalancerRule
+    并重写其中的 public Server choose(ILoadBalancer lb, Object key) 方法，加上我们自己的
+    定义即可。
+    
+    不过使用自定义均衡规则有几点需要注意的注意事项：
+        1. 该类一定不要在@ComponentScan能扫描的包下，如果在其能扫描的包下的话，就会被用作全局规则
+        2. 一定要继承AbstractLoadBalancerRule 类 而不是IRule
+        3. 配置类的返回值是IRule  而不是 AbstractLoadBalancerRule
+        请参考包 ribbon 
+        

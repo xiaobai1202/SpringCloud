@@ -1,5 +1,7 @@
 package com.xiaobai.cloudconsumerribbon;
 
+import com.netflix.loadbalancer.IRule;
+import com.xiaobai.cloudconsumerribbon.ribbon.MyRibbonRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -30,5 +32,23 @@ public class CloudConsumerRibbon81Application {
     @Bean
     public RestTemplate restTemplate(){
         return new RestTemplate();
+    }
+
+    /**
+     * 配置我们个性化的负载均衡算法
+     * 也就是说 同一时刻 只能有一个负载均衡算法
+     * @return 负载均衡算法
+     */
+    @Bean
+    public IRule iRule(){
+        //轮询方式
+//        return new RoundRobinRule();
+        //随机方式
+//        return new RandomRule();
+        //轮询重试
+//        return new RetryRule();
+        //自定义负载均衡规则   5 次换结点
+        return new MyRibbonRule();
+        //其他的就不一一尝试了
     }
 }
