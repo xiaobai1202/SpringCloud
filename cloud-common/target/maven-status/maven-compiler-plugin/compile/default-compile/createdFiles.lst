@@ -1,1 +1,4 @@
 com\xiaobai\entity\Dept.class
+com\xiaobai\fallback\DeptFallback$1.class
+com\xiaobai\fallback\DeptFallback.class
+com\xiaobai\service\DeptService.class

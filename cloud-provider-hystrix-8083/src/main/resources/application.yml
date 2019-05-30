@@ -1,0 +1,29 @@
+server:
+  port: 8083
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/clouddb01?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  application:
+    name: cloud-provider
+mybatis:
+  type-aliases-package: com.xiaobai.clouprovider.entity
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+   com.xiaobai.clouprovider: debug
+
+#下面是第二阶段 配置Eureka客户端 进行服务注册
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://eureka7001.com:7001/eureka/ # 这是第二阶段的单一注册中心
+      #第三阶段 注册中心集群
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ # 集群配置的Eureka注册（若是单一就写一个）
+  instance:
+    instance-id: cloud-provider-hystrix-8083 #配置实例ID （显示用 调用服务还是要使用服务名称）
+    prefer-ip-address: true #显示ip地址

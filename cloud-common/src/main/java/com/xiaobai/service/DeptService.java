@@ -1,6 +1,7 @@
 package com.xiaobai.service;
 
 import com.xiaobai.entity.Dept;
+import com.xiaobai.fallback.DeptFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +14,7 @@ import java.util.Map;
  * @since 1.0
  * 用于fegin访问的接口规范
  */
-@FeignClient(value = "CLOUD-PROVIDER")
+@FeignClient(value = "CLOUD-PROVIDER",fallbackFactory = DeptFallback.class)
 public interface DeptService {
     /**
      * 获取部门列表

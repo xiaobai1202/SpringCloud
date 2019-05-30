@@ -20,5 +20,6 @@
         <module>cloud-eureka-7003</module>
         <module>cloud-consumer-ribbon-81</module>
         <module>cloud-consumer-fegin-82</module>
+        <module>cloud-provider-hystrix-8083</module>
     </modules>
 </project>
