@@ -16,3 +16,5 @@
   [6  cloud-provider-fegin 负载均衡模块（高级）](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-fegin-82)
   
   [7  cloud-provider-hystrix-8083 服务熔断与降级模块](https://github.com/811105717/SpringCloud/tree/master/cloud-provider-hystrix-8083)
+
+  [8  cloud-hystrix-dashboard-9090 服务监视模块](https://github.com/811105717/SpringCloud/tree/master/cloud-hystrix-dashboard-9090)
