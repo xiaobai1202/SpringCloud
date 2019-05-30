@@ -12,3 +12,4 @@
    2. com.xiaobai.service.DeptService 接口  用于Fegin的请求使用，Fegin通过这个
        接口对微服务进行调用, 请参考 [cloud-consumer-fegin-82](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-fegin-82)
    
+   3. com.xiaobai.fallback.DeptFallback 类   用于实现服务降级的备选返回类
