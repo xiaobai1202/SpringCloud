@@ -5,37 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe4a32ec-3b55-462e-b455-bb710cb2bea0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xiaobai/fallback/DeptFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/target/classes/META-INF/cloud-common.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/target/classes/com/xiaobai/fallback/DeptFallback$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/target/classes/com/xiaobai/fallback/DeptFallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/CloudProviderHystrix8083Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/dao/DeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/test/java/com/xiaobai/cloudproviderhystrix8083/CloudProviderHystrix8083ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xiaobai/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xiaobai/service/DeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/target/classes/com/xiaobai/service/DeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/target/classes/com/xiaobai/service/DeptService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/target/cloud-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/target/cloud-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/CloudConsumerFegin82Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/CloudConsumerFegin82Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/controller/FeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-8083/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-8083/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/CloudProviderHystrix8083Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/CloudProviderHystrix8083Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/controller/DeptController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,6 +36,9 @@
     <ignored path="$PROJECT_DIR$/cloud-consumer-fegin/target/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer-fegin-82/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-hystrix-8083/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-hystrx-dashboard-9527/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-hystrx-dashboard-9090/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,21 +80,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/CloudConsumerFegin82Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="405">
-                <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <first_editor relative-caret-position="481">
+                <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -120,22 +93,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/controller/FeignController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/controller/DeptController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="308">
+              <caret line="61" column="19" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,10 +105,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/CloudProviderHystrix8083Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="386">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,15 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-eureka-7003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-eureka-7002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-eureka-7001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-8080/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-8081/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-8080/README.MD" />
-        <option value="$PROJECT_DIR$/cloud-provider-8081/README.MD" />
-        <option value="$PROJECT_DIR$/cloud-provider-8082/README.MD" />
         <option value="$PROJECT_DIR$/cloud-eureka-7001/README.MD" />
         <option value="$PROJECT_DIR$/cloud-eureka-7002/README.MD" />
         <option value="$PROJECT_DIR$/cloud-eureka-7003/README.MD" />
@@ -205,24 +160,33 @@
         <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/config/BeansConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/controller/FeignController.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/README.MD" />
         <option value="$PROJECT_DIR$/cloud-common/README.MD" />
         <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/CloudProviderHystrix8083Application.java" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/service/DeptService.java" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/dao/DeptDao.java" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/service/impl/DeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/xiaobai/service/DeptService.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/xiaobai/fallback/DeptFallback.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/xiaobai/service/fallback/DeptFallback.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/CloudConsumerFegin82Application.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrx-dashboard-9090/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/src/main/java/com/xiaobai/cloudhystrxdashboard/CloudHystrxDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/src/main/java/com/xiaobai/cloudhystrxdashboard/CloudHystrIxDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/src/main/java/com/xiaobai/cloudhystrIxdashboard/CloudHystrIxDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/src/main/java/com/xiaobai/cloudhystrixdashboard/CloudHystrIxDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/src/main/java/com/xiaobai/cloudhystrixdashboard/CloudHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/CloudProviderHystrix8083Application.java" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/controller/FeignController.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/README.MD" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/README.MD" />
       </list>
     </option>
@@ -239,12 +203,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-provider-hystrix-8083" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="cloud-provider-hystrix-8083" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -271,6 +235,104 @@
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-fegin-82" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-fegin-82" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-fegin-82" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-fegin-82" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-fegin-82" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudconsumerfegin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-fegin-82" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudconsumerfegin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-8083" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-8083" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-8083" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-8083" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-8083" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudproviderhystrix8083" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-8083" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudproviderhystrix8083" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-8083" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -289,7 +351,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-hystrix-8083" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-hystrix-dashboard-9090" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -311,11 +373,11 @@
       <recent name="cloudeureka7001" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\自己学习代码\SpringCloud\cloud-hystrix-dashboard-9090" />
       <recent name="G:\自己学习代码\SpringCloud\cloud-provider-hystrix-8083" />
       <recent name="G:\自己学习代码\SpringCloud\cloud-provider-hystrix-8083\src\main\java\com\xiaobai\cloudproviderhystrix8083" />
       <recent name="G:\自己学习代码\SpringCloud\cloud-provider-hystrix-8083\src\main\resources" />
       <recent name="G:\自己学习代码\SpringCloud\cloud-consumer-fegin-82" />
-      <recent name="G:\自己学习代码\SpringCloud\cloud-consumer-fegin-82\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,7 +398,7 @@
     </option>
     <option name="contentProportion" value="0.22564936" />
   </component>
-  <component name="RunManager" selected="Spring Boot.CloudConsumerFeign82Application">
+  <component name="RunManager" selected="Spring Boot.CloudProviderHystrix8083Application">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="cloud-eureka" />
       <option name="VM_PARAMETERS" />
@@ -435,6 +497,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CloudHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-hystrix-dashboard-9090" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaobai.cloudhystrixdashboard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaobai.cloudhystrixdashboard.CloudHystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CloudProvider8080Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-8080" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaobai.cloudprovider.CloudProvider8080Application" />
@@ -487,12 +562,14 @@
       <item itemvalue="Spring Boot.CloudProvider8081Application" />
       <item itemvalue="Spring Boot.CloudProvider8082Application" />
       <item itemvalue="Spring Boot.CloudProviderHystrix8083Application" />
+      <item itemvalue="Spring Boot.CloudHystrixDashboardApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CloudEureka7002Application" />
-        <item itemvalue="Spring Boot.CloudProvider8081Application" />
         <item itemvalue="Spring Boot.CloudProvider8082Application" />
+        <item itemvalue="Spring Boot.CloudProvider8081Application" />
+        <item itemvalue="Spring Boot.CloudHystrixDashboardApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +604,7 @@
       <workItem from="1559111310746" duration="2569000" />
       <workItem from="1559113959144" duration="322000" />
       <workItem from="1559114349897" duration="4735000" />
-      <workItem from="1559176838547" duration="10724000" />
+      <workItem from="1559176838547" duration="19370000" />
     </task>
     <task id="LOCAL-00001" summary="00:06">
       <created>1558886811077</created>
@@ -648,11 +725,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559119085291</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2019/5/30 11:48 添加hystrix 服务熔断模块">
+      <created>1559188135104</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559188135104</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59883000" />
+    <option name="totallyTimeSpent" value="68529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -667,7 +751,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -682,14 +766,14 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32850778" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32628062" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.3585746" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.3585746" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -716,47 +800,14 @@
     <MESSAGE value="2019/05/29 16:19 负载均衡  ribbon and fegin" />
     <MESSAGE value="Merge branch 'master' of https://github.com/811105717/SpringCloud&#10;&#10;# Conflicts:&#10;#&#9;README.MD" />
     <MESSAGE value="更新 README.MD" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 README.MD" />
+    <MESSAGE value="2019/5/30 11:48 添加hystrix 服务熔断模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/5/30 11:48 添加hystrix 服务熔断模块" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-provider-8082/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-8080/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="376">
-            <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-8081/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="478">
-            <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-8082/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1003,13 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/service/DeptService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1033,25 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/CloudProviderHystrix8083Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1069,20 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/CloudConsumerFegin82Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/xiaobai/service/DeptService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1093,10 +1104,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard-9090/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/CloudConsumerFegin82Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/controller/FeignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="376">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard-9090/src/main/java/com/xiaobai/cloudhystrixdashboard/CloudHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard-9090/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="110">
+            <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard-9090/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/CloudProviderHystrix8083Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1105,8 +1194,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="308">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1116,8 +1205,8 @@
     <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <first_editor relative-caret-position="481">
+            <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>

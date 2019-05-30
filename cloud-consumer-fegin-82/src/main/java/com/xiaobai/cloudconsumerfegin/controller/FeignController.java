@@ -33,15 +33,15 @@ public class FeignController {
 /**
  * 请注意  由于我们没有配置RestTemplate 模板 导致对象映射失败 所以下面复杂对象的请求应该是不成功的
  */
-//    @PutMapping("/modify")
-//    public Map<String,Object> modify(Dept dept){
-//        return deptService.modifyDept(dept);
-//    }
-//
-//    @PostMapping("/add")
-//    public Map<String,Object> add(Dept dept){
-//        return deptService.addDept(dept);
-//    }
+    @PutMapping("/modify")
+    public Map<String,Object> modify(Dept dept){
+        return deptService.modifyDept(dept);
+    }
+
+    @PostMapping("/add")
+    public Map<String,Object> add(Dept dept){
+        return deptService.addDept(dept);
+    }
 
     @DeleteMapping("/delete/{id}")
     public Map<String,Object> delete(@PathVariable("id")String id){

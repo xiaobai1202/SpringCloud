@@ -48,4 +48,18 @@
      
    请注意，这里的演示涉及到 [cloud-common 公共模块](https://github.com/811105717/SpringCloud/tree/master/cloud-common) [cloud-consumer-fegin-82 模块](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-fegin-82) 和 [cloud-provider-hystrix-8083 熔断服务提供者模块](https://github.com/811105717/SpringCloud/tree/master/cloud-provider-hystrix-8083)
    
-     
+## 第三阶段 服务监控 
+    为了更好地监控每一个服务的健康状态，我们可以使用hystrix自带的服务监控程序，这里我们配置一种最简单的监控程序
+#### 配置方式
+    1. 在pom文件中加入 actuator 的依赖
+    2. 在启动类要启用服务熔断机制 @EnableCircuitBreaker
+    3. 我们需要在配置类中配置一个bean 这里我配置在启动类中，具体请查看启动类
+       ```@Bean
+            public ServletRegistrationBean hystrixMetricsStreamServlet() {
+                ServletRegistrationBean registration = new ServletRegistrationBean(new HystrixMetricsStreamServlet());
+                registration.addUrlMappings("/hystrix.stream");
+                return registration;
+            }```
+    4. 在要启用服务监控的控制器方法上打上@HystrixCommand 注解，当负载均衡访问到这个方法的时候就会qidongjianshi
+    
+   互相配置依赖请参考 [cloud-hystrix-dashboard-9090](https://github.com/811105717/SpringCloud/tree/master/cloud-hystrix-dashboard-9090)        

@@ -22,7 +22,7 @@ public class DeptController {
 
     @Autowired
     private DeptService deptService;
-
+    @HystrixCommand
     @RequestMapping(value = "/list",method = RequestMethod.GET)
     public List<Dept> deptList(){
         return deptService.list();
@@ -36,6 +36,8 @@ public class DeptController {
      * @return 查找到的系部
      */
 //    @HystrixCommand(fallbackMethod = "exceptionBack")
+
+    @HystrixCommand
     @RequestMapping(value = "/list/{id}" ,method = RequestMethod.GET)
     public Dept findDeptById(@PathVariable("id") String id){
         Dept dept = deptService.getById(id);
@@ -57,18 +59,18 @@ public class DeptController {
         dept.setDname("抱歉，没有查询到"+id+"所对应的系部！");
         return dept;
     }
-
+    @HystrixCommand
     @PutMapping(value = "/modify")
     public Map<String,Object> modifyDept(Dept dept){
         System.out.println(dept);
         return deptService.modify(dept);
     }
-
+    @HystrixCommand
     @PostMapping(value = "/add")
     public Map<String,Object> addDept(Dept dept){
         return deptService.addDept(dept);
     }
-
+    @HystrixCommand
     @DeleteMapping(value = "/delete/{id}")
     public Map<String,Object> deleteDept(@PathVariable("id") String id){
         return deptService.delete(id);

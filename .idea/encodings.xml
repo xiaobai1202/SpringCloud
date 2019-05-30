@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/cloud-eureka-7001/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hystrix-dashboard-9090" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-8080" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-8081" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-8082" charset="UTF-8" />
