@@ -19,9 +19,10 @@
         <module>cloud-eureka-7002</module>
         <module>cloud-eureka-7003</module>
         <module>cloud-consumer-ribbon-81</module>
-        <module>cloud-consumer-fegin-82</module>
+        <module>cloud-consumer-feign-82</module>
         <module>cloud-provider-hystrix-8083</module>
         <module>cloud-hystrix-dashboard-9090</module>
         <module>cloud-gateway-zuul-1202</module>
+        <module>cloud-config-consumer-83</module>
     </modules>
 </project>

@@ -1,0 +1,26 @@
+server:
+  port: 1213
+
+
+spring:
+  application:
+    name:  cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:811105717/microservicecloud-config.git # 使用这个的前提是 有ssh 秘钥
+          # 还有直接使用用户名密码进行配置的  这里就不能演示了
+          #请注意  这个项目在你的本地应该是会报异常的 因为你是无法连接到我的ssh的
+#git:
+#  uri: https://github.com/811105717/microservicecloud-config/tree/master #GitHub上面的git仓库名字
+#  username: 811105717
+#  password: xxxxxx
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+
+  instance:
+    instance-id: cloud-config-1213
+    prefer-ip-address: true

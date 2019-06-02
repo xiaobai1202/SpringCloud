@@ -7,19 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-provider-hystrix-8083" />
+        <module name="cloud-config-consumer-83" />
+        <module name="cloud-consumer-ribbon-81" />
+        <module name="cloud-hystrix-dashboard-9090" />
+        <module name="cloud-consumer-feign-82" />
+        <module name="cloud-eureka-7003" />
         <module name="cloud-eureka-7002" />
         <module name="cloud-eureka-7001" />
-        <module name="cloud-provider-hystrix-8083" />
         <module name="cloud-common" />
         <module name="cloud-provider-8082" />
         <module name="cloud-provider-8081" />
         <module name="cloud-provider-8080" />
-        <module name="cloud-hystrix-dashboard-9090" />
-        <module name="cloud-consumer-feign-82" />
-        <module name="cloud-consumer-ribbon-81" />
-        <module name="cloud-gateway-zuul-1202" />
         <module name="cloud-consumer-80" />
-        <module name="cloud-eureka-7003" />
+        <module name="cloud-gateway-zuul-1202" />
+        <module name="cloud-config-1213" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +31,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-config-1213" options="-parameters" />
       <module name="cloud-consumer-80" options="-parameters" />
       <module name="cloud-consumer-feign-82" options="-parameters" />
       <module name="cloud-consumer-ribbon-81" options="-parameters" />

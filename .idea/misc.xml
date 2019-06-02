@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-hystrx-dashboard-9527/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway-zuul-1202/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-1213/pom.xml" />
       </list>
     </option>
   </component>

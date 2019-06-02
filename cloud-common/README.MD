@@ -9,6 +9,7 @@
     clouddb02.sql  
     clouddb03.sql  当前项目使用的数据库（.sql文件) 三个服务使用三个不同的数据库
    1. com.xiaobai.entity.Dept  ———— 由IDEA 的数据库插件自动生成的实体类 对应dept表
+   
    2. com.xiaobai.service.DeptService 接口  用于Fegin的请求使用，Fegin通过这个
        接口对微服务进行调用, 请参考 [cloud-consumer-fegin-82](https://github.com/811105717/SpringCloud/tree/master/cloud-consumer-fegin-82)
    

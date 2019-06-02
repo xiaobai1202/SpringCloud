@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-client #需要从github上读取的资源名称，注意没有yml后缀名
+      profile: test   #本次访问的配置项
+      label: master
+      uri: cloud-config  #本微服务启动后先去找3344号服务，通过SpringCloudConfig获取GitHub的服务地址
+      # 请注意！！ 这里的uri 指向的是你的config 服务所在的地址  所以 这个项目启动的条件是 config服务必须成功启动
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+
+  instance:
+    instance-id: cloud-config-consumer
+    prefer-ip-address: true
