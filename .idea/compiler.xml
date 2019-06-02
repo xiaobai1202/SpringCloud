@@ -9,14 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-7002" />
         <module name="cloud-eureka-7001" />
-        <module name="cloud-hystrix-dashboard-9090" />
+        <module name="cloud-provider-hystrix-8083" />
         <module name="cloud-common" />
         <module name="cloud-provider-8082" />
         <module name="cloud-provider-8081" />
         <module name="cloud-provider-8080" />
-        <module name="cloud-provider-hystrix-8083" />
+        <module name="cloud-hystrix-dashboard-9090" />
+        <module name="cloud-consumer-feign-82" />
         <module name="cloud-consumer-ribbon-81" />
-        <module name="cloud-consumer-fegin-82" />
+        <module name="cloud-gateway-zuul-1202" />
         <module name="cloud-consumer-80" />
         <module name="cloud-eureka-7003" />
       </profile>
@@ -29,12 +30,13 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-consumer-80" options="-parameters" />
-      <module name="cloud-consumer-fegin-82" options="-parameters" />
+      <module name="cloud-consumer-feign-82" options="-parameters" />
       <module name="cloud-consumer-ribbon-81" options="-parameters" />
       <module name="cloud-eureka" options="-parameters" />
       <module name="cloud-eureka-7001" options="-parameters" />
       <module name="cloud-eureka-7002" options="-parameters" />
       <module name="cloud-eureka-7003" options="-parameters" />
+      <module name="cloud-gateway-zuul-1202" options="-parameters" />
       <module name="cloud-hystrix-dashboard-9090" options="-parameters" />
       <module name="cloud-provider-8080" options="-parameters" />
       <module name="cloud-provider-8081" options="-parameters" />

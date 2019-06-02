@@ -1,4 +1,4 @@
-# cloud-consumer-fegin
+# cloud-consumer-feign
     fegin是用来进行服务调用的组件，他会自动帮我们配置RestTemplate和Ribbon，进行负载均衡
     的服务调用，当然我们也可以自定义RestTemplate和Ribbon的负载均衡算法
     

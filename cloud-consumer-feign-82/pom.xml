@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xiaobai</groupId>
-    <artifactId>cloud-consumer-fegin-82</artifactId>
+    <artifactId>cloud-consumer-feign-82</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cloud-consumer-fegin-82</name>
+    <name>cloud-consumer-feign-82</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
