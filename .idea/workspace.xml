@@ -4,13 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe4a32ec-3b55-462e-b455-bb710cb2bea0" name="Default Changelist" comment="2019/5/30 15:28 添加hystrix-dashboard 服务监控模块">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="fe4a32ec-3b55-462e-b455-bb710cb2bea0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-zuul-1202/README.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,6 +31,7 @@
     <ignored path="$PROJECT_DIR$/cloud-hystrx-dashboard-9090/target/" />
     <ignored path="$PROJECT_DIR$/cloud-hystrix-dashboard-9090/target/" />
     <ignored path="$PROJECT_DIR$/cloud-gateway-zuul-1202/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-feign-82/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,18 +74,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-gateway-zuul-1202/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-gateway-zuul-1202/src/main/java/com/xiaobai/cloudgatewayzuul1202/CloudGatewayZuul1202Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="242">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="e#458#459#0" expanded="true" />
@@ -99,36 +86,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-gateway-zuul-1202/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="168">
+              <caret line="12" selection-start-line="12" selection-end-line="23" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/controller/FeignController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway-zuul-1202/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="396">
+                <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -154,9 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-consumer-ribbon-81/src/main/java/com/xiaobai/cloudconsumerribbon/CloudConsumerRibbonApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-80/src/main/java/com/xiaobai/cloudcomsumer/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer-ribbon-81/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-consumer-ribbon-81/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer-ribbon-81/src/main/java/com/xiaobai/cloudconsumerribbon/controller/ConsumerController.java" />
@@ -176,7 +159,6 @@
         <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/config/BeansConfig.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/README.MD" />
         <option value="$PROJECT_DIR$/cloud-common/README.MD" />
-        <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/service/DeptService.java" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-8083/src/main/java/com/xiaobai/cloudproviderhystrix8083/dao/DeptDao.java" />
@@ -205,6 +187,10 @@
         <option value="$PROJECT_DIR$/cloud-gateway-zuul-1202/src/main/java/com/xiaobai/cloudgatewayzuul1202/CloudGatewayZuul1202Application.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-gateway-zuul-1202/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-82/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-82/README.MD" />
+        <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/cloud-gateway-zuul-1202/README.MD" />
       </list>
     </option>
   </component>
@@ -242,6 +228,11 @@
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-zuul-1202" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,7 +251,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringCloudCode/microservicecloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-gateway-zuul-1202" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -282,11 +273,11 @@
       <recent name="cloudeureka7001" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\自己学习代码\SpringCloud\cloud-gateway-zuul-1202" />
       <recent name="G:\自己学习代码\SpringCloud\cloud-hystrix-dashboard-9090" />
       <recent name="G:\自己学习代码\SpringCloud\cloud-provider-hystrix-8083" />
       <recent name="G:\自己学习代码\SpringCloud\cloud-provider-hystrix-8083\src\main\java\com\xiaobai\cloudproviderhystrix8083" />
       <recent name="G:\自己学习代码\SpringCloud\cloud-provider-hystrix-8083\src\main\resources" />
-      <recent name="G:\自己学习代码\SpringCloud\cloud-consumer-fegin-82" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -527,7 +518,7 @@
       <workItem from="1559392574303" duration="288000" />
       <workItem from="1559394874188" duration="51000" />
       <workItem from="1559402631530" duration="123000" />
-      <workItem from="1559441596278" duration="2077000" />
+      <workItem from="1559441596278" duration="2724000" />
     </task>
     <task id="LOCAL-00001" summary="00:06">
       <created>1558886811077</created>
@@ -662,11 +653,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559201350788</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2019/6/02 10:50 添加zuul 网管模块">
+      <created>1559443884988</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559443884988</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72937000" />
+    <option name="totallyTimeSpent" value="73584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,8 +700,8 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32850778" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32628062" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49946696" visible="true" weight="0.3585746" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32628062" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49946696" weight="0.3585746" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -732,14 +730,14 @@
     <MESSAGE value="更新 README.MD" />
     <MESSAGE value="2019/5/30 11:48 添加hystrix 服务熔断模块" />
     <MESSAGE value="2019/5/30 15:28 添加hystrix-dashboard 服务监控模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/5/30 15:28 添加hystrix-dashboard 服务监控模块" />
+    <MESSAGE value="2019/6/02 10:50 添加zuul 网管模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/6/02 10:50 添加zuul 网管模块" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon-81/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon-81/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -853,27 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-8080/src/main/java/com/xiaobai/cloudprovider/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
           <caret line="47" column="71" selection-start-line="46" selection-start-column="4" selection-end-line="47" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="378">
-            <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -887,17 +868,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="16" selection-start-line="16" selection-end-line="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/config/BeansConfig.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-82/src/main/java/com/xiaobai/cloudconsumerfegin/config/BeansConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -985,7 +956,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/CloudConsumerFegin82Application.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-82/src/main/java/com/xiaobai/cloudconsumerfegin/CloudConsumerFegin82Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
@@ -1069,16 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
-            <caret line="67" selection-start-line="67" selection-end-line="67" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-8080/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1093,10 +1054,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/java/com/xiaobai/cloudconsumerfegin/controller/FeignController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-82/src/main/java/com/xiaobai/cloudconsumerfegin/controller/FeignController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#914#915#0" expanded="true" />
@@ -1107,10 +1068,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-fegin-82/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-82/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-8083/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1121,9 +1092,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-82/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-82/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-zuul-1202/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" selection-start-line="12" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-gateway-zuul-1202/src/main/java/com/xiaobai/cloudgatewayzuul1202/CloudGatewayZuul1202Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="242">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="e#458#459#0" expanded="true" />
@@ -1132,10 +1137,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-zuul-1202/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-zuul-1202/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="396">
+            <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
