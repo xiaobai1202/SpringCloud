@@ -1,6 +1,6 @@
 # SpringCloud
 
- 这是一个示例项目，更新完毕后，将会包含所有的SpringCloud常用技术栈模块
+ 这是一个示例项目，包含了Spring Cloud 的常用组件，目前已经更新到配置中心。
  
 ## 当前已经更新的模块有：
   [1. cloud-common 公共模块](https://github.com/811105717/SpringCloud/tree/master/cloud-common)
@@ -20,3 +20,7 @@
   [8  cloud-hystrix-dashboard-9090 服务监视模块](https://github.com/811105717/SpringCloud/tree/master/cloud-hystrix-dashboard-9090)
   
   [9  cloud-gateway-zuul-1202 网关模块](https://github.com/811105717/SpringCloud/tree/master/cloud-gateway-zuul-1202)
+
+  [10 cloud-config-1213 配置中心模块](https://github.com/811105717/SpringCloud/tree/master/cloud-config-1213)
+  
+  [11 cloud-config-consumer-83 基于配置中心的服务模块](https://github.com/811105717/SpringCloud/tree/master/cloud-config-consumer-83)
